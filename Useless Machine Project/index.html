@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escape from Use</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="scene" aria-live="polite">
+      <div id="dock-backdrop" aria-hidden="true">
+        <div class="dock-shadow"></div>
+        <div class="dock-sheen"></div>
+      </div>
+
+      <section id="caption">
+      </section>
+    </div>
+
+    <audio id="audio-footsteps" preload="auto">
+      <source src="assets/audio/footsteps.wav" type="audio/wav" />
+    </audio>
+    <audio id="audio-overused-scream" preload="auto">
+      <source src="assets/audio/overused_scream.wav" type="audio/wav" />
+    </audio>
+    <audio id="audio-overused-sigh" preload="auto">
+      <source src="assets/audio/overused_sigh.wav" type="audio/wav" />
+    </audio>
+    <audio id="audio-underused-cheer" preload="auto">
+      <source src="assets/audio/underused_cheer.wav" type="audio/wav" />
+    </audio>
+    <audio id="audio-overused-noooo" preload="auto">
+      <source src="assets/audio/noooo-sfx.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="audio-underused-shout" preload="auto">
+      <source src="assets/audio/ksi-yes.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
